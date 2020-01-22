@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Local Searx Search",
+    "short_name": "searx-local",
+    "description": "Adds local searx as a search engine.",
+    "version": "1.0.0",
+    "icons": {
+      "192": "icons/logo_searx_a.png",
+  		"64": "icons/Xsearx64.png"
+  	},
+    "chrome_settings_overrides": {
+        "search_provider": {
+            "favicon_url": "https://www.privacytools.io/assets/img/favicons/favicon-16x16.png",
+            "is_default": true,
+            "keyword": "ls",
+            "name": "Local Searx",
+            "search_url": "https://127.0.0.1:8080",
+            "search_url_get_params": "q={searchTerms}"
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "local-searx-firefox-plugin",
+  "version": "1.0.0",
+  "description": "Web extension that adds local searx instance as a search engine to the Firefox browser.",
+  "author": "nitrohorse",
+  "scripts": {
+    "bundle": "web-ext -s web-extension -a dist build --overwrite-dest",
+    "start": "web-ext run -s ./web-extension"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tehtbl/local-searx-firefox-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/tehtbl/local-searx-firefox-plugin/issues"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "webextensions"
+  ],
+  "devDependencies": {
+    "web-ext": "^3.2.1"
+  }
+}
